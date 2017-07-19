@@ -29,6 +29,9 @@ public Graphs() {
 	for (int i =0 ; i < MAX_VERTEX ; i++)
 		for ( int j = 0; j < MAX_VERTEX ; j++)
 			adjMat[i][j] = 0;
+	/*for (int i =0 ; i < MAX_VERTEX ; i++) {
+		vertexList[i].label ='z';
+	}*/
 	}
 
 public void addVertex(char lab)  {
